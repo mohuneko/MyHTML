@@ -8,49 +8,95 @@
 
 </head>
 <body>
-  <img src="img/logo.png" width="350px" height="50px" alt="ドットインストールのロゴです">
-
-  <h1>ドットインストール</h1>
-  <p>プログラミング学習サービスの「<a href="https:dotinstall.com" target="_blank">ドットインストール</a>」です！</p>「<a href="members.html">メンバー紹介</a>」と「<a href="lessons/index.html">レッスン一覧</a>」をご覧ください。
-
+  <header>
+    <img src="img/logo.png" width="350px" height="50px" alt="ドットインストールのロゴです">
+  </header>
 
 
-  <h2>このサービスについて</h2>
-  <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
+  <!-- <label for="name">名前</label>
+  <input type="text" id="name"> -->
+  <label>名前<input type="text" id="name"></label>
 
-  <h2>主な特徴</h2>
-  <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
-  <ul>
-    <li>すごい</li>
-    <li>やばい</li>
-    <li>つよい</li>
-  </ul>
+  <input type="text" value="hello">
+  <input type="password">
+  <textarea></textarea>
+  <textarea>Hello</textarea>
 
-  <h2>使い方</h2>
-  <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
-  <ol>
-    <li>動画をみる</li>
-    <li>コードをかく</li>
-    <li>コードを改造する</li>
-  </ol>
+  <h1>記事一覧</h1>
 
-  <h2>よく聞かれる質問</h2>
-  <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
-  <dl>
-    <dt>質問A</dt>
-    <dd>回答A</dd>
-    <dt>質問B</dt>
-    <dd>回答B</dd>
-  </dl>
-    <h2>沿革</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>年</th>
-          <th>出来事</th>
-        </tr>
-      </thead>
-      <tbody>
+  <article>
+    <h1><span style="color:red;">記</span>事のタイトル</h1>
+    <div style="background:silver;">
+      <p>お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。</p>
+      <footer>投稿日：<time>2019-10-01</time> by @taguchi</footer>
+    </div>
+  </article>
+
+  <article>
+    <h1>記事のタイトル</h1>
+    <p>お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。お知らせです。</p>
+    <footer>投稿日：<time>2019-10-01</time> by @taguchi</footer>
+  </article>
+
+  <main>
+
+
+    <h1>ドットインストール</h1>
+    <p>プログラミング学習サービスの「<a href="https:dotinstall.com" target="_blank">ドットインストール</a>」です！</p>「<a href="members.html">メンバー紹介</a>」と「<a href="lessons/index.html">レッスン一覧</a>」をご覧ください。
+    
+    <nav>
+      <ul>
+        <li><a href="#about">このサービスについて</a></li>
+        <li><a href="#history">沿革</a></li>
+      </ul>
+    </nav>
+    
+    <section>
+    <h1 id="about">このサービスについて</h1>
+    <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
+    </section>
+
+    <section>
+      <h1>主な特徴</h1>
+      <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
+      <ul>
+        <li>すごい</li>
+        <li>やばい</li>
+        <li>つよい</li>
+      </ul>
+    </section>
+
+    <section>
+      <h1>使い方</h1>
+      <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
+      <ol>
+        <li>動画をみる</li>
+        <li>コードをかく</li>
+        <li>コードを改造する</li>
+      </ol>
+    </section>
+
+    <section>
+      <h1>よく聞かれる質問</h1>
+      <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
+      <dl>
+        <dt>質問A</dt>
+        <dd>回答A</dd>
+        <dt>質問B</dt>
+        <dd>回答B</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h1 id="history">沿革</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>年</th>
+            <th>出来事</th>
+          </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>2014</td>
             <td>会社設立</td>
@@ -59,7 +105,17 @@
             <td>2016</td>
             <td>サイトリニューアル</td>
           </tr>
-      </tbody>
-    </table>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+    <aside>
+      <h2>広告</h2>
+      <p>広告です。広告です。広告です。広告です。広告です。広告です。広告です。広告です。広告です。広告です。</p>
+    </aside>
+    <footer>
+      <p><a href="#top">先頭へ戻る</a></p>
+    </footer>
 </body>
 </html>
